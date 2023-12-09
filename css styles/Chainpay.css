@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+
+}
+nav .logo span{
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+nav .logo span .dot{
+    color: green;
+    font-size: 1.5rem;
+}
+nav .logo img{
+    height: 32px;
+}
+nav .links{
+    display: flex;
+    list-style: none;
+    
+}
+nav .links .link{
+    padding: 5px 1.5rem;
+    font-weight: 500;
+}
+nav .btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav .btn i{
+    font-size: 1.3rem;
+    /* background-color: rgb(36, 17, 17); */
+    color: green;
+    padding: .5rem .5rem;
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 52px;
+    margin:0 10px;  
+    cursor: pointer;
+
+}
+nav .btn .flag{
+    display: flex;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 4px 4px;
+}
+   
+nav .btn .flag a{
+    text-decoration: none;
+}
+nav .btn .flag img{
+    width: .9rem;
+    height: .4rem;
+}
+
+main{
+    display: flex;
+    padding: 1rem 6rem;
+    align-items: flex-end;
+    gap: 2rem;
+}
+main .introsection{
+    padding: 5rem 0;
+}
+main .introsection h1{
+   font-size: 3.5rem;
+}
+main.introsection h1 p{
+    font-size: 5rem;
+}
+.introsection .describe{
+    font-size: 16px;
+    opacity: .7;
+    margin: 1.5rem 0;
+    max-width: 80%;
+}
+main .imagesection img{
+    width: 29rem;
+    height: 26rem;
+    /* margin-top: 30px; */
+}
+main .btnicons{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+main .btnicons a{
+    text-decoration: none;
+    color: green;
+}
+main .btnicons i{
+    font-size: 1.3rem;
+    /* background-color: rgb(36, 17, 17); */
+    padding: .5rem .5rem;
+    color: green;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 52px;
+    margin:0 10px;
+    
+ 
+}
+
+footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);;
+}
+footer .footeritem{
+    display: flex;
+    align-items: center;
+}
+footer .footeritem p{
+    opacity: .9;
+    font-size: 1.2rem;
+}
+
