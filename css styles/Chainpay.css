@@ -28,9 +28,10 @@ nav .logo{
 nav .logo span{
     font-size: 1.5rem;
     font-weight: bold;
+    gap: 2px;
    
 }
-nav .logo span .dot{
+nav .logo .dot{
     color: green;
     font-size: 1.5rem;
 }
@@ -53,7 +54,7 @@ nav .btn{
 }
 nav .btn i{
     font-size: 1.3rem;
-    background-color: #141711;
+    background-color: rgba(2, green, blue, alpha);
     color: green;
     padding: .5rem .5rem;
     border: 1px solid #ccc;
@@ -87,12 +88,15 @@ nav .btn .flag span{
 
 main{
     display: flex;
+    justify-content: center;
     padding: 1rem 6rem;
-    align-items: flex-end;
+    
     gap: 2rem;
 }
 main .introsection{
+    /* display: flex; */
     padding: 5rem 0;
+    /* justify-content: center; */
 }
 main .introsection h1{
    font-size: 3.5rem;
@@ -108,12 +112,12 @@ main.introsection h1 p{
 }
 main .imagesection img{
     width: 29rem;
-    height: 26rem;
+    height: 27rem;
     /* margin-top: 30px; */
 }
 main .btnicons{
     display: flex;
-    gap: 7px;
+    gap: 1px;
     align-items: center;
 }
 main .btnicons a{
@@ -148,7 +152,10 @@ footer .footeritem{
     align-items: center;
 }
 footer .footeritem p{
-    opacity: .9;
+    opacity: .3;
     font-size: 1.2rem;
+}
+footer .footeritem h3{
+    opacity: .4;
 }
 
